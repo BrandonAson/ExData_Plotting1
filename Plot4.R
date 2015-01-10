@@ -1,4 +1,4 @@
-WK1Plot4 <- function()  
+Plot4 <- function()  
   
 {
   ############### LOAD PACKAGES ################
@@ -27,7 +27,7 @@ WK1Plot4 <- function()
 
   selectDates$Global_active_power <- as.numeric(selectDates$Global_active_power)
 
-  par(mfrow = c(2,2))
+  par(mfrow = c(2,2), bg = "white")
   with(selectDates, {
     
     ## UPPER LEFT PLOT ##

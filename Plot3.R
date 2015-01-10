@@ -1,4 +1,4 @@
-WK1Plot3 <- function()  
+Plot3 <- function()  
   
 {
   ############### LOAD PACKAGES ################
